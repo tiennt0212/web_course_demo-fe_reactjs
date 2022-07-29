@@ -42,6 +42,10 @@ code {
   font-family: "DM Mono";
 }
 
+.f-poppins{
+  font-family: "Poppins";
+}
+
 .lighter {
   font-weight: lighter;
 }

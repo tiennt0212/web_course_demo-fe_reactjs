@@ -57,6 +57,8 @@ function App() {
         <div className='f-dm_mono fw-500'>DM Mono (fw-500)</div>
         <div className='f-dm_mono bolder'>DM Mono (bold/bolder)</div>
 
+        <div className='f-poppins lighter'>1 2 3 4 5 6 7 8 9 0</div>
+        <div className='f-poppins normal'>1 2 3 4 5 6 7 8 9 0</div>
 
         <a
           className="App-link"
