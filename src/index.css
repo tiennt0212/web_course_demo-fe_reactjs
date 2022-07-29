@@ -1,5 +1,30 @@
+@font-face {
+  font-family: "Space Grotesk";
+  src: url("./assets/fonts/SpaceGrotesk/WOFF/SpaceGrotesk-Light.woff") format("woff");
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: "Space Grotesk";
+  src: url("./assets/fonts/SpaceGrotesk/WOFF/SpaceGrotesk-Regular.woff") format("woff");
+  font-weight: 400
+}
+
+@font-face {
+  font-family: "Space Grotesk";
+  src: url("./assets/fonts/SpaceGrotesk/WOFF/SpaceGrotesk-Medium.woff") format("woff");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Space Grotesk";
+  src: url("./assets/fonts/SpaceGrotesk/WOFF/SpaceGrotesk-Bold.woff") format("woff");
+  font-weight: 900;
+}
+
 body {
   margin: 0;
+  font-family: "Space Grotesk";
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -10,4 +35,69 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.lighter {
+  font-family: "Space Grotesk";
+  font-weight: lighter;
+}
+
+.normal {
+  font-family: "Space Grotesk";
+  font-weight: normal;
+}
+
+.bold {
+  font-family: "Space Grotesk";
+  font-weight: bold;
+}
+
+.bolder {
+  font-family: "Space Grotesk";
+  font-weight: bolder;
+}
+
+.fw-100 {
+  font-family: "Space Grotesk";
+  font-weight: 100;
+}
+
+.fw-200 {
+  font-family: "Space Grotesk";
+  font-weight: 200;
+}
+
+.fw-300 {
+  font-family: "Space Grotesk";
+  font-weight: 300;
+}
+
+.fw-400 {
+  font-family: "Space Grotesk";
+  font-weight: 400;
+}
+
+.fw-500 {
+  font-family: "Space Grotesk";
+  font-weight: 500;
+}
+
+.fw-600 {
+  font-family: "Space Grotesk";
+  font-weight: 600;
+}
+
+.fw-700 {
+  font-family: "Space Grotesk";
+  font-weight: 700;
+}
+
+.fw-800 {
+  font-family: "Space Grotesk";
+  font-weight: 800;
+}
+
+.fw-900 {
+  font-family: "Space Grotesk";
+  font-weight: 900;
 }
