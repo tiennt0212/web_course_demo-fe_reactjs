@@ -1,11 +1,22 @@
 import React from "react";
+// import { useDispatch, useSelector } from "react-redux";
+import { useDispatch, useSelector } from "../../hooks";
+import { useEffect } from "react";
 
 const DevSite = () => {
+  const { getMovie } = useDispatch(({ testModel }) => ({
+    getMovie: testModel.getMovie,
+  }));
+  const { movie } = useSelector(({ testModel }) => ({
+    movie: testModel.movie,
+  }));
+  useEffect(() => {
+    getMovie();
+  });
   return (
     <React.Fragment>
-      <div>
-        Hello
-      </div>
+      <div>Movie is:</div>
+      <div>{movie}</div>
       <div className="lighter">
         To use the font for an HTML element, refer to the name of the font
         (myFirstFont) through the font-family property:
