@@ -1,3 +1,4 @@
 import DevSite from "./DevSite";
+import HomePage from "./HomePage";
 
-export { DevSite };
+export { DevSite, HomePage };
