@@ -1,4 +1,4 @@
-import { getMovie } from "../../services/testService";
+import { TestService } from "../../services";
 
 export const testModel = {
   state: {
@@ -15,7 +15,7 @@ export const testModel = {
   effects: (dispatch) => ({
     async getMovie() {
       try {
-        const data = getMovie();
+        const data = await TestService.getMovie();
         this.setMovie(data);
       } catch (error) {
         console.log(error);

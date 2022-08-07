@@ -4,19 +4,19 @@ import { useDispatch, useSelector } from "../../hooks";
 import { useEffect } from "react";
 
 const DevSite = () => {
-  const { getMovie } = useDispatch(({ testModel }) => ({
-    getMovie: testModel.getMovie,
+  const { getNFTs } = useDispatch(({ nftModel }) => ({
+    getNFTs: nftModel.getNFTs,
   }));
-  const { movie } = useSelector(({ testModel }) => ({
-    movie: testModel.movie,
+  const { nfts } = useSelector(({ nftModel }) => ({
+    nfts: nftModel.nfts,
   }));
   useEffect(() => {
-    getMovie();
-  });
+    getNFTs();
+  }, [getNFTs]);
   return (
     <React.Fragment>
-      <div>Movie is:</div>
-      <div>{movie}</div>
+      <div>NFTs are</div>
+      <div>{JSON.stringify(nfts)}</div>
       <div className="lighter">
         To use the font for an HTML element, refer to the name of the font
         (myFirstFont) through the font-family property:
