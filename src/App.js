@@ -1,5 +1,4 @@
 import React, { Suspense } from "react";
-import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 // import ErrorBoundary from "./components/ErrorBoundary";
 import { DevSite, HomePage } from "./containers";
@@ -7,11 +6,12 @@ import { ROUTES } from "./utils/constant";
 import MainLayout from "./layouts/MainLayout";
 import store from "./store";
 import { Provider } from "react-redux";
+import "../src/styles/resetCSS.css";
+import "../src/styles/global.css";
 
 function App() {
   return (
     <React.Fragment>
-      {/* <Header /> */}
       <Provider store={store}>
         <BrowserRouter>
           <MainLayout>
@@ -26,7 +26,6 @@ function App() {
           </MainLayout>
         </BrowserRouter>
       </Provider>
-      {/* <Footer /> */}
     </React.Fragment>
   );
 }

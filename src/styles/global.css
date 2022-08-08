@@ -1,27 +1,3 @@
-/* @font-face {
-  font-family: "Space Grotesk";
-  src: url("./assets/fonts/SpaceGrotesk/WOFF/SpaceGrotesk-Light.woff") format("woff");
-  font-weight: 100;
-}
-
-@font-face {
-  font-family: "Space Grotesk";
-  src: url("./assets/fonts/SpaceGrotesk/WOFF/SpaceGrotesk-Regular.woff") format("woff");
-  font-weight: 400
-}
-
-@font-face {
-  font-family: "Space Grotesk";
-  src: url("./assets/fonts/SpaceGrotesk/WOFF/SpaceGrotesk-Medium.woff") format("woff");
-  font-weight: 700;
-}
-
-@font-face {
-  font-family: "Space Grotesk";
-  src: url("./assets/fonts/SpaceGrotesk/WOFF/SpaceGrotesk-Bold.woff") format("woff");
-  font-weight: 900;
-} */
-
 body {
   margin: 0;
   font-family: "Space Grotesk";
@@ -42,7 +18,7 @@ code {
   font-family: "DM Mono";
 }
 
-.f-poppins{
+.f-poppins {
   font-family: "Poppins";
 }
 

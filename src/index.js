@@ -1,14 +1,9 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
-// import './assets/fonts/SpaceGrotesk/WOFF/SpaceGrotesk-Light.woff';
-// import './assets/fonts/SpaceGrotesk/WOFF/SpaceGrotesk-Regular.woff';
-// import './assets/fonts/SpaceGrotesk/WOFF/SpaceGrotesk-Medium.woff';
-// import './assets/fonts/SpaceGrotesk/WOFF/SpaceGrotesk-Bold.woff';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import App from "./App";
+import reportWebVitals from "./reportWebVitals";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <App />
