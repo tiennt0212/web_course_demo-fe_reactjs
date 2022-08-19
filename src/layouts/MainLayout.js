@@ -4,7 +4,7 @@ import { colors } from "../styles/colors";
 import { Header, Footer } from "../components";
 
 const MainLayoutStyled = styled.div`
-  background-color: ${colors.darkBlue};
+  background-color: ${colors.primaryBg};
   color: #fff;
 `;
 

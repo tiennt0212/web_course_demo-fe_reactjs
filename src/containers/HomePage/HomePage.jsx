@@ -337,8 +337,8 @@ const LongParagraph = () => {
 };
 
 const HomePage = () => {
-  // return <div> Hello</div>;
-  return <LongParagraph />;
+  return <div> Hello</div>;
+  // return <LongParagraph />;
 };
 
 export default HomePage;
