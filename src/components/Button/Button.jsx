@@ -10,6 +10,7 @@ const ButtonStyled = styled.button`
   padding: 0 30px;
   line-height: 40px;
   border-radius: 5px;
+  font-family: "Space Grotesk";
   font-weight: 700;
 `;
 const Button = (props) => {
